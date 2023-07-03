@@ -1,0 +1,49 @@
+/* Styling for the product browsing page container */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Styling for the search input */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styling for each product card */
+.product-card {
+  border: 1px solid #100e0e;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+ 
+
+}
+
+/* Styling for product name */
+.product-card h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+  background-color: aqua;
+}
+
+/* Styling for product description */
+.product-card p {
+  margin: 5px 0;
+  color: #555;
+  background-color: aqua;
+}
+
+/* Styling for product price */
+.product-card p.price {
+  font-weight: bold;
+  color: #007bff;
+  background-color: aqua;
+}
